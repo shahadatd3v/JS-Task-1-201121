@@ -1,0 +1,115 @@
+body{
+	background-color: #e3e0d8;
+}
+.left{
+	width: 66%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+}
+
+.right{
+	width: 32%;
+	height: 100vh;
+	float: right;
+	background-color: #fff;
+	border-radius: 3px;
+}
+.product{
+	font-size: 12px;
+	font-weight: bold;
+	height: 190px;
+	width: 122px;
+	text-align: left;
+	margin-bottom: 2px;
+	position: relative;
+}
+.add-btn{
+	text-decoration: none;
+	font-size: 28px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+	width: 90%;
+	background-color: #2ee866;
+	color: #000;
+
+}
+.product img{
+	position: absolute;
+	left: 0;
+	height: 90px;
+	width: 120px;
+}
+.product:hover{
+	/*background-color: #d9d5ca;*/
+	cursor: pointer;
+}
+.add{
+	padding-left: 10px;
+	padding-top: 7px;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+}
+.payment{
+	margin: 0 5px;
+}
+.total{
+	position: fixed;
+	bottom: 0;
+	width: 31%;
+}
+
+.pay-button{
+	padding-left: 4px;
+}
+.card-text{
+	margin: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.badge {
+    position: relative;
+    border: solid;
+    border-radius: 15px;
+    padding: 1px 5px;
+    top: -18px;
+    left: -18px;
+    font-size: 5px;
+    background-color: #2ebac9;
+}
+
+.footer{
+	width: 66%;
+}
+.footer hr{
+	margin: 5px;
+}
+.footer-1{
+	display: inline-block;
+	margin-left: 5px;
+}
+.footer-2{
+	float: right;
+	margin-right: 5px;
+}
+.cart-image img{
+	width: 50px;
+}
+.fa-trash-alt{
+	color: black;
+}
+.bt{
+	border: 0;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+.card-body{
+	position: absolute;
+	top: 110px;
+	padding: 0;
+	width: 90%;
+}
